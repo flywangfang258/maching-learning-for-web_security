@@ -1,0 +1,94 @@
+NLTK:
+
+语料库（Corpus） - 文本的正文，单数。Corpora 是它的复数。
+词库（Lexicon） - 词汇及其含义。例如：英文字典。
+标记（Token） - 每个“实体”都是根据规则分割的一部分。例如，当一个句子被“拆分”成单词时，每个单词都是一个标记。如果您将段落拆分为句子，则每个句子也可以是一个标记。
+
+词性标记
+CC     coordinatingconjunction 并列连词
+
+CD     cardinaldigit  纯数  基数
+
+DT     determiner  限定词（置于名词前起限定作用，如 the、some、my 等）
+
+EX     existentialthere (like:"there is"... think of it like "thereexists")   存在句；存现句
+
+FW     foreignword  外来语；外来词；外文原词
+
+IN     preposition/subordinating conjunction介词/从属连词；主从连词；从属连接词
+
+JJ     adjective    'big'  形容词
+
+JJR    adjective, comparative 'bigger' （形容词或副词的）比较级形式
+
+JJS    adjective, superlative 'biggest'  （形容词或副词的）最高级
+
+LS     listmarker  1)
+
+MD     modal (could, will) 形态的，形式的 , 语气的；情态的
+
+NN     noun, singular 'desk' 名词单数形式
+
+NNS    nounplural  'desks'  名词复数形式
+
+NNP    propernoun, singular     'Harrison' 专有名词
+
+NNPS  proper noun, plural 'Americans'  专有名词复数形式
+
+PDT    predeterminer      'all the kids'  前位限定词
+
+POS    possessiveending  parent's   属有词  结束语
+
+PRP    personalpronoun   I, he, she  人称代词
+
+PRP$  possessive pronoun my, his, hers  物主代词
+
+RB     adverb very, silently, 副词    非常  静静地
+
+RBR    adverb,comparative better   （形容词或副词的）比较级形式
+
+RBS    adverb,superlative best    （形容词或副词的）最高级
+
+RP     particle     give up 小品词(与动词构成短语动词的副词或介词)
+
+TO     to    go 'to' the store.
+
+UH     interjection errrrrrrrm  感叹词；感叹语
+
+VB     verb, baseform    take   动词
+
+VBD    verb, pasttense   took   动词   过去时；过去式
+
+VBG    verb,gerund/present participle taking 动词  动名词/现在分词
+
+VBN    verb, pastparticiple     taken 动词  过去分词
+
+VBP    verb,sing. present, non-3d     take 动词  现在
+
+VBZ    verb, 3rdperson sing. present  takes   动词  第三人称
+
+WDT    wh-determiner      which 限定词（置于名词前起限定作用，如 the、some、my 等）
+
+WP     wh-pronoun   who, what 代词（代替名词或名词词组的单词）
+
+WP$    possessivewh-pronoun     whose  所有格；属有词
+
+WRB    wh-abverb    where, when 副词
+
+
+Scikit-Learn：
+基本功能主要分为6个部分：分类、回归、聚类、数据降维、模型选择、数据预处理
+
+依赖的环境：Python(>2.6 or >=3.3), NumPy(>=1.6.1), SciPy(>=0.9)
+
+NumPy:一种开源的数值计算扩展，可用来存储和处理大型矩阵，包括一个强大的N维数组对象Array，比较成熟的广播函数阵，用于整合C/C++和Fortran代码的工具包，
+      实用的线性代数、傅里叶变换和随机数生成函数等。
+SciPy:是一款方便、易于使用、专为科学和工程设计的Python工具包，包括统计、优化、整合、线性代数模块、傅里叶变换、信号与图像处理、常微分方程求解器等
+
+
+TensorFlow是一个采用数据流图、用于数值计算的开源软件库，节点在图中表示数学操作，图中的线表示在节点间相互联系的多维数据数组，即张量。
+特点：高度的灵活性；真正的可移植性、将科研和产品联系在一起；自动求微分；多语言支持；性能最优化。
+
+
+召回率(查全率) = TP/(TP + FN)
+准确率（查准率）= TP/(TP + FP)

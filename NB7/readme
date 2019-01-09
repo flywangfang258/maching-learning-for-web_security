@@ -1,0 +1,13 @@
+贝叶斯分类是一类分类算法的总称，这类算法均以贝叶斯理论为基础，统称为贝叶斯分类。
+朴素贝叶斯（NB)算法是基于贝叶斯定理和特征条件独立假设的分类方法。
+简单假定：给定目标值的属性之间相互条件独立
+
+高斯朴素贝叶斯（Gaussian Naive Bayes）
+多项式朴素贝叶斯（Multinomial Naive Bayes）
+伯努利朴素贝叶斯（Bernoulli Naive Bayes）
+
+
+检测异常操作、检测webshell、检测DGA域名、检测针对Apache的DDoS攻击，检测基于MNIST数据集的验证码
+
+基于webshell的文本特征进行webshell检测，将互联网上收集到的webshell作为黑样本，当前最新的wordpress源码作为白样本。
+将php文件作为一个字符串处理，以基于单词的2-gram切割，遍历全部文件形成基于2-gram的词汇表，然后进一步将每个php文件向量化。

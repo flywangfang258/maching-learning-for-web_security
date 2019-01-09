@@ -1,0 +1,140 @@
+1   KDD99（Knowledge Discovery and Data Mining）知识发现与数据挖掘的简称，KDD CUP是由ACM组织的年度竞赛。
+    http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html
+
+    一个网络连接定义为：在某个时间内从开始到结束的TCP数据包序列，并且在这段时间内，数据在于定义的协议下从源IP地址到目的IP地址的传递。
+    每个网络连接被标记为正常（normal）或者异常（attack），
+    异常类型被细分为4大类共39中攻击类型，其中22中攻击类型出现在训练集中，另有17中未知攻击类型出现在测试集中。
+
+    dos：拒绝服务攻击
+    u2r：非法的本地超级用户特权访问
+    r2l：来自远程主机的未授权访问
+    probe：端口监视或扫描
+
+    KDD99数据集任然是网络入侵检测领域的权威测试集，为基于计算智能的网络入侵检测研究奠定基础。
+    内容类型: 网络流量，主机行为
+    是否特征化: 是
+    适用范围: 主机入侵检测，异常流量监控
+    KDD99数据集中每个连接用41个特征来描述。
+
+    TCP连接基本特征（0-8， 9个）：包含了连接的接本属性，如
+        连接连续时间、协议类型、目标主机的网络服务类型、连接正常或错误的状态、从源主机到目标主机的数据的字节数 、从目标主机到源主机的数据的字节数、
+        land（若连接来自/送达同一个主机/端口则为1）、错误分段数量[0,3]、加急包个数[0,14]
+
+    TCP连接的内容特征（9-21， 13个）：
+        访问系统敏感文件和目录的次数、登录尝试失败的次数、logged_in（成功登录则为1）、compromised条件出现的次数、root_shell（若获得root_shell则为1）、
+        su_attempted（若出现‘su root’命令则为1）、root用户访问次数、文件创建操作次数、使用shell命令的次数、访问控制文件的次数、
+        一个FTP会话中出站连接次数、登录是否属于‘hot'列表、是否为guest登录
+
+    基于时间的网络流量统计特征（22-30， 9个）：都是指  过去2秒内：
+        与当前连接具有相同的目标主机的个数、与当前连接具有相同服务的个数、在与当前连接具有相同目标主机的连接中，出现’SYN‘错误的连接的百分比、
+        在与当前连接具有相同服务的连接中，出现’SYN‘错误的连接的百分比、在与当前连接具有相同目标主机的连接中，出现’REJ‘错误的连接的百分比、
+        在与当前连接具有相同服务的连接中，出现’REJ‘错误的连接的百分比、在与当前连接具有相同目标主机的连接中，具有相同服务的的连接的百分比、
+        在与当前连接具有目标主机的连接中，与当前连接具有不同服务的连接的百分比、在与当前连接具有相同服务的连接中，与当前连接具有不同目标主机的连接的百分比
+
+    基于主机的网络流量统计特征（31-40， 10个）：都是指  前100个连接中：
+        与当前连接具有相同目标主机的连接数、与当前连接具有相同目标主机相同服务的连接数、与当前连接具有相同目标主机相同服务的连接所占的百分比、
+        与当前连接具有相同目标主机不同服务的连接所占的百分比、与当前连接具有相同目标主机相同源端口的连接所占的百分比、
+        与当前连接具有相同目标主机相同服务的连接中，与当前连接具有不同源主机的连接所占的百分比、
+        与当前连接具有相同目标主机的连接中，出现SYN错误的连接所占的百分比、
+        与当前连接具有相同目标主机相同服务的连接中，出现SYN错误的连接所占的百分比、
+        与当前连接具有相同主机的连接中，出现’REJ‘错误的连接所占的百分比、
+        与当前连接具有相同目标主机相同服务的连接中，出现’REJ'错误的连接所占的百分比。
+
+
+2   HTTP DATASET CSIC 2010：http://www.isi.csic.es/dataset/
+    HTTP DATASET CSIC 2010 包含已经标注过的针对web服务的请求。数据量约5w条。3.6万个正常请求，2.5万个攻击请求，
+    攻击类型包括SQL注入、缓冲区溢出、信息泄露、文件包含、xss、SQL注入、CRLF注入、跨站脚本、服务器端包含、参数篡改等，被广泛应用于WAF产品的功能评测。
+    下载地址已经为我们分类好了训练用的正常数据，测试用的正常数据，测试用的异常数据。
+    内容类型: 网络流量
+    是否特征化：否
+    使用范围: WAF类产品，异常流量监控
+
+3   SEA数据集
+    SEA数据集涵盖70多个UNIX系统用户的行为日志，这些数据来自于UNIX系统acct机制记录的用户使用的命令。
+    2001年Schonlau等人第一次提出了伪装者内部攻击形式, 随后构造了一个检测伪装者攻击的数据集SEA, 该数据被广泛用于内部伪装者的检测研究。
+    SEA数据集中每个用户都采集了15 000条命令，从用户集合中随机抽取50个用户作为正常用户，剩余用户的命令块中随机插入模拟命令作为内部伪装者攻击数据。
+
+4   ADFA-LD Datasets   https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-IDS-Datasets/
+    是澳大利亚国防大学发布的一套关于HIDS的数据集。分为linux（ADFA-LD）和window（ADFA-WD）针对攻击类型进行了标注。
+    内容类型: 主机行为
+    是否特征化：是
+    使用范围: 入侵检测
+
+5   Alexa域名数据
+    DGA（域名生成算法）是一种利用随机字符来生成C&C域名，从而逃避域名黑名单检测的技术手段。
+    Alexa对外提供了全球排名TOP一百万的网站域名的下载，文件是CSV格式，以排名、域名组成。
+    域名生成算法DGA常见的两个家族cryptolocker和post-tovargoz
+    正常域名和可疑域名检测。 主要用于DGA（域名生成算法）的检测。这里直接用Alexa Top 100W 作为正常域名。用其他的开放的DGA数据作为黑样本。
+    内容类型: 文本样本
+    是否特征化：否
+    使用范围: 入侵检测 异常流量 WAF
+    Alexa Top 100W   http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
+    360DGA   http://data.netlab.360.com/dga/
+    zeusDGA  http://www.secrepo.com/misc/zeus_dga_domains.txt.zip
+
+6   Scikit-Learn数据集
+    iris， 四个属性，鸢尾植物分为3类，iris里有2个属性：iris.data和iris.target，共150条记录
+
+7   MNIST数据集：计算机视觉数据集，6万个训练数据和1万个测试数据。每一张图片包含28×28个像素点，可以把这个数组展开成一个向量，长度是28×28 = 784
+    文件读取方式为：
+    import pickle
+    import gzip
+    def load_data():
+        with gzip.open('./mnist.pkl.gz') as fp:
+            training_data, valid_data, test_data = pickle.load(fp)
+        return training_data, valid_data, test_data
+
+8   Movie Review Data       http://www.cs.cornell.edu/people/pabo/movie-review-data/
+    包含1 000 条正面的评论和1 000条负面评论，被广泛应用于文本分类，尤其是恶意评论识别方面。
+    本书使用其最新的版本，polarity dataset v2.0，Movie Review Data数据集记录的都是原始评论数据，全部为英文
+    文件包含在pos和neg两个文件夹下面，分别代表正面和负面评价。
+
+9   SpamBase数据集         http://archive.ics.uci.edu/ml/datasets/Spambase
+    入门级的垃圾邮件分类训练集。
+    SpamBase的数据不是原始的邮件内容而是已经特征化的数据，对应的特征是统计的关键字以及特殊符号的词频，
+    一共58个属性，其中最后一个是垃圾邮件的标记位。
+    数据来源为4601封邮件，其中1813封为垃圾邮件
+
+10　Enron数据集            http://www2.aueb.gr/users/ion/data/enron-spam/
+    机器学习领域使用Enron公司的归档邮件来研究文档分类、词性标注、垃圾邮件识别等，
+    由于Enron的邮件都是真实环境下的真实邮件，非常具有实际意义。
+    本书使用的Enron数据集是经过人工标注过的正常邮件和垃圾邮件，属于狭义的Enron数据集合，
+    广义的Enron数据集指全量真实且未被标记的Enron公司归档邮件。
+    Enron数据集合使用不同文件夹区分正常邮件和垃圾邮件
+
+
+11    webshell    https://github.com/tennc/webshell
+    这里github有一个比较多样本的收集。涵盖了很多的语言。
+    内容类型: 文本样本
+    是否特征化：否
+    使用范围: 入侵检测 异常流量 WAF
+
+
+12    登录日志    http://www.secrepo.com/auth.log/auth.log.gz
+    auth.log 主要是都是登录失败的日志 适合用作判断是爆破登录还是正常的输错密码
+    内容类型: 主机行为
+    是否特征化：否
+    使用范围: 入侵检测 异常流量 WAF
+
+13    恶意URL   https://github.com/faizann24/Using-machine-learning-to-detect-malicious-URLs
+    malicious-URLs 在Github上面一个 使用机器学习去检测恶意URL的项目 ，里面有一个训练集，有做标记是正常的URL还是恶意的URL
+    内容类型: 文本样本
+    是否特征化：否
+    使用范围: 入侵检测 异常流量 WAF
+
+14    综合数据    https://github.com/sooshie/Security-Data-Analysis
+    在github上有一个叫 Security-Data-Analysis 的项目，里面有4个实验室 每个实验室的数据都不一样，包含http，连接记录，域名，host等等。
+    内容类型: 网络流量
+    是否特征化：否
+    使用范围: 异常流量
+
+15    The Malware Capture Facility Project        https://mcfp.weebly.com/mcfp-dataset.html
+    MCFP 是捷克理工大学 (CTU 好像也叫捷克技工大学..不是很懂翻译)用于捕抓恶意软件的而抓去的网络流量。里面的数据非常多，有他们自己分析出来的恶意流量，也有所有的流量，包括网络文件，日志，DNS请求等
+    内容类型: 网络流量
+    是否特征化：否
+    使用范围: 异常流量 WAF
+
+16    恶意软件数据库     http://malwaredb.malekal.com/
+    MalwareDB 包含了恶意软件列表 hash,检测结果，所属域名等数据
+    内容类型: 文本样本
+    使用范围: 特征库 入侵检测

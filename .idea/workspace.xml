@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7cc9683d-b467-4c5a-8a0e-d9793861af7c" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/web_security$lr_java_overflow.coverage" NAME="lr_java_overflow Coverage Results" MODIFIED="1545140843626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_LR" />
+    <SUITE FILE_PATH="coverage/web_security$py_test_for_hmm_DGA_test_alexa.coverage" NAME="py.test for hmm_DGA.test_alexa Coverage Results" MODIFIED="1545225823457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_HMM" />
+    <SUITE FILE_PATH="coverage/web_security$hmm_xss.coverage" NAME="hmm_xss Coverage Results" MODIFIED="1545750420563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_HMM" />
+    <SUITE FILE_PATH="coverage/web_security$knn_rootkit.coverage" NAME="knn_rootkit Coverage Results" MODIFIED="1545095223553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_KNN" />
+    <SUITE FILE_PATH="coverage/web_security$py_test_for_svm_DGA_test_alexa.coverage" NAME="py.test for svm_DGA.test_alexa Coverage Results" MODIFIED="1545716237279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_SVM" />
+    <SUITE FILE_PATH="coverage/web_security$rnn_passwd.coverage" NAME="rnn_passwd Coverage Results" MODIFIED="1545578984594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_RNN" />
+    <SUITE FILE_PATH="coverage/web_security$kmeans_DGA.coverage" NAME="kmeans_DGA Coverage Results" MODIFIED="1545200932256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_k_Means" />
+    <SUITE FILE_PATH="coverage/web_security$nb_DDoS.coverage" NAME="nb_DDoS Coverage Results" MODIFIED="1545112980455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7_NB" />
+    <SUITE FILE_PATH="coverage/web_security$rnn_malcomment.coverage" NAME="rnn_malcomment Coverage Results" MODIFIED="1545535297684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_RNN" />
+    <SUITE FILE_PATH="coverage/web_security$nb_abnormal_detection.coverage" NAME="nb_abnormal_detection Coverage Results" MODIFIED="1545101550061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7_NB" />
+    <SUITE FILE_PATH="coverage/web_security$neural_verification_code.coverage" NAME="neural_verification_code Coverage Results" MODIFIED="1545374305593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_Neural_Network" />
+    <SUITE FILE_PATH="coverage/web_security$rnn_cityName.coverage" NAME="rnn_cityName Coverage Results" MODIFIED="1545577338526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_RNN" />
+    <SUITE FILE_PATH="coverage/web_security$tf_verification_code3.coverage" NAME="tf_verification_code3 Coverage Results" MODIFIED="1545821812714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_MLP_DNN" />
+    <SUITE FILE_PATH="coverage/web_security$nb_webshell.coverage" NAME="nb_webshell Coverage Results" MODIFIED="1545110839463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7_NB" />
+    <SUITE FILE_PATH="coverage/web_security$nb_DGA.coverage" NAME="nb_DGA Coverage Results" MODIFIED="1545197949953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NB7" />
+    <SUITE FILE_PATH="coverage/web_security$cnn_malComment.coverage" NAME="cnn_malComment Coverage Results" MODIFIED="1545636309957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/17_CNN" />
+    <SUITE FILE_PATH="coverage/web_security$tree_pop3.coverage" NAME="tree_pop3 Coverage Results" MODIFIED="1545095814805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Tree" />
+    <SUITE FILE_PATH="coverage/web_security$knn_webshell.coverage" NAME="knn_webshell Coverage Results" MODIFIED="1545109647115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_KNN" />
+    <SUITE FILE_PATH="coverage/web_security$svm_DGA.coverage" NAME="svm_DGA Coverage Results" MODIFIED="1545716757677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_SVM" />
+    <SUITE FILE_PATH="coverage/web_security$tf_verification_code1.coverage" NAME="tf_verification_code1 Coverage Results" MODIFIED="1545383821576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_MLP_DNN" />
+    <SUITE FILE_PATH="coverage/web_security$knn.coverage" NAME="knn Coverage Results" MODIFIED="1545029337118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_KNN" />
+    <SUITE FILE_PATH="coverage/web_security$rnn_webshell.coverage" NAME="rnn_webshell Coverage Results" MODIFIED="1545579371818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_RNN" />
+    <SUITE FILE_PATH="coverage/web_security$apriori_xss.coverage" NAME="apriori_xss Coverage Results" MODIFIED="1545208363682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_Apriori" />
+    <SUITE FILE_PATH="coverage/web_security$lr_verification_code.coverage" NAME="lr_verification_code Coverage Results" MODIFIED="1545124988080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/8_LR" />
+    <SUITE FILE_PATH="coverage/web_security$rnn_mnist.coverage" NAME="rnn_mnist Coverage Results" MODIFIED="1545404797891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_RNN" />
+    <SUITE FILE_PATH="coverage/web_security$svm_xss.coverage" NAME="svm_xss Coverage Results" MODIFIED="1545183716898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_SVM" />
+    <SUITE FILE_PATH="coverage/web_security$neo4j_botnet.coverage" NAME="neo4j_botnet Coverage Results" MODIFIED="1545310667949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_Graph" />
+    <SUITE FILE_PATH="coverage/web_security$prepare.coverage" NAME="prepare Coverage Results" MODIFIED="1544415963769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/start" />
+    <SUITE FILE_PATH="coverage/web_security$nb_verification_code.coverage" NAME="nb_verification_code Coverage Results" MODIFIED="1545113483575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/7_NB" />
+    <SUITE FILE_PATH="coverage/web_security$tree_ftp.coverage" NAME="tree_ftp Coverage Results" MODIFIED="1545098467725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Tree" />
+    <SUITE FILE_PATH="coverage/web_security$fp_botnet.coverage" NAME="fp_botnet Coverage Results" MODIFIED="1545211477946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_Apriori" />
+    <SUITE FILE_PATH="coverage/web_security$graph_threat.coverage" NAME="graph_threat Coverage Results" MODIFIED="1545318002459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_Graph" />
+    <SUITE FILE_PATH="coverage/web_security$py_test_in_hmm_DGA_py.coverage" NAME="py.test in hmm_DGA.py Coverage Results" MODIFIED="1545225693076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/12_HMM" />
+    <SUITE FILE_PATH="coverage/web_security$tf_verification_code2.coverage" NAME="tf_verification_code2 Coverage Results" MODIFIED="1545821658322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_MLP_DNN" />
+    <SUITE FILE_PATH="coverage/web_security$knn_abnormal_detection.coverage" NAME="knn_abnormal_detection Coverage Results" MODIFIED="1545101319521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/5_KNN" />
+    <SUITE FILE_PATH="coverage/web_security$graph_steal.coverage" NAME="graph_steal Coverage Results" MODIFIED="1545314175901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_Graph" />
+    <SUITE FILE_PATH="coverage/web_security$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1544446336238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_dataset" />
+    <SUITE FILE_PATH="coverage/web_security$neo4j_webshell.coverage" NAME="neo4j_webshell Coverage Results" MODIFIED="1545299243696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_Graph" />
+    <SUITE FILE_PATH="coverage/web_security$mlp_java_overflow.coverage" NAME="mlp_java_overflow Coverage Results" MODIFIED="1545361415468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/14_Neural_Network" />
+    <SUITE FILE_PATH="coverage/web_security$py_test_in_svm_DGA_py.coverage" NAME="py.test in svm_DGA.py Coverage Results" MODIFIED="1545716097704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/9_SVM" />
+    <SUITE FILE_PATH="coverage/web_security$rnn_abnormal.coverage" NAME="rnn_abnormal Coverage Results" MODIFIED="1545620746141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/16_RNN" />
+    <SUITE FILE_PATH="coverage/web_security$tree_iris.coverage" NAME="tree_iris Coverage Results" MODIFIED="1545039166538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Tree" />
+    <SUITE FILE_PATH="coverage/web_security$rf_ftp.coverage" NAME="rf_ftp Coverage Results" MODIFIED="1545099783004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/6_Tree" />
+    <SUITE FILE_PATH="coverage/web_security$apriopri.coverage" NAME="apriopri Coverage Results" MODIFIED="1545207084993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11_Apriori" />
+    <SUITE FILE_PATH="coverage/web_security$neo4j_demo.coverage" NAME="neo4j_demo Coverage Results" MODIFIED="1545289683879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/13_Graph" />
+    <SUITE FILE_PATH="coverage/web_security$tf_spam1.coverage" NAME="tf_spam1 Coverage Results" MODIFIED="1545402075017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/15_MLP_DNN" />
+    <SUITE FILE_PATH="coverage/web_security$dbscan.coverage" NAME="dbscan Coverage Results" MODIFIED="1545203353195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10_k_Means" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="rnn_abnormal.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/16_RNN/rnn_abnormal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="118" column="51" selection-start-line="118" selection-start-column="51" selection-end-line="118" selection-end-column="51" />
+              <folding>
+                <element signature="e#68#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>download</find>
+      <find>gzip</find>
+      <find>'mysql</find>
+      <find>gs</find>
+      <find>xgvis</find>
+      <find>sed</find>
+      <find>,</find>
+      <find>6b2548</find>
+      <find>[-1.02126202  0.2408932 ]</find>
+      <find>[-0.46722079 -0.53064123]</find>
+      <find>[ 0.95144703  0.57998206]</find>
+      <find>index_wordbag</find>
+      <find>index</find>
+      <find>array</find>
+      <find>n_words</find>
+      <find>]</find>
+      <find>200,</find>
+      <find>callback</find>
+      <find>load_data</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/6_Tree/rf_ftp.py" />
+        <option value="$PROJECT_DIR$/5_KNN/knn_abnormal_detection.py" />
+        <option value="$PROJECT_DIR$/7_NB/nb_abnormal_detection.py" />
+        <option value="$PROJECT_DIR$/7_NB/readme" />
+        <option value="$PROJECT_DIR$/7_NB/nb_webshell.py" />
+        <option value="$PROJECT_DIR$/7_NB/nb_DDoS.py" />
+        <option value="$PROJECT_DIR$/7_NB/nb_verification_code.py" />
+        <option value="$PROJECT_DIR$/7_NB/nb_DGA.py" />
+        <option value="$PROJECT_DIR$/8_LR/lr_verification_code.py" />
+        <option value="$PROJECT_DIR$/8_LR/lr_java_overflow.py" />
+        <option value="$PROJECT_DIR$/9_SVM/svm_xss.py" />
+        <option value="$PROJECT_DIR$/NB7/nb_DGA.py" />
+        <option value="$PROJECT_DIR$/10_k_Means/readme" />
+        <option value="$PROJECT_DIR$/10_k_Means/kmeans_DGA.py" />
+        <option value="$PROJECT_DIR$/10_k_Means/dbscan.py" />
+        <option value="$PROJECT_DIR$/11_Apriori/apriopri.py" />
+        <option value="$PROJECT_DIR$/11_Apriori/apriori_xss.py" />
+        <option value="$PROJECT_DIR$/11_Apriori/readme" />
+        <option value="$PROJECT_DIR$/11_Apriori/fp_botnet.py" />
+        <option value="$PROJECT_DIR$/12_HMM/readme" />
+        <option value="$PROJECT_DIR$/12_HMM/hmm_DGA.py" />
+        <option value="$PROJECT_DIR$/13_Graph/neo4j_demo.py" />
+        <option value="$PROJECT_DIR$/13_Graph/neo4j_webshell.py" />
+        <option value="$PROJECT_DIR$/13_Graph/neo4j_botnet.py" />
+        <option value="$PROJECT_DIR$/13_Graph/readme" />
+        <option value="$PROJECT_DIR$/13_Graph/graph_steal.py" />
+        <option value="$PROJECT_DIR$/13_Graph/graph_threat.py" />
+        <option value="$PROJECT_DIR$/14_Neural_Network/mlp_java_overflow.py" />
+        <option value="$PROJECT_DIR$/14_Neural_Network/neural_verification_code.py" />
+        <option value="$PROJECT_DIR$/15_MLP_DNN/tf.verification_code2.py" />
+        <option value="$PROJECT_DIR$/15_MLP_DNN/tf_verification_code1.py" />
+        <option value="$PROJECT_DIR$/15_MLP_DNN/tf_verification_code.py" />
+        <option value="$PROJECT_DIR$/15_MLP_DNN/tf_verification_code2.py" />
+        <option value="$PROJECT_DIR$/15_MLP_DNN/readme" />
+        <option value="$PROJECT_DIR$/16_RNN/readme" />
+        <option value="$PROJECT_DIR$/15_MLP_DNN/tf_spam1.py" />
+        <option value="$PROJECT_DIR$/14_Neural_Network/readme" />
+        <option value="$PROJECT_DIR$/16_RNN/rnn_cityName.py" />
+        <option value="$PROJECT_DIR$/16_RNN/rnn_webshell.py" />
+        <option value="$PROJECT_DIR$/16_RNN/rnn_passwd.py" />
+        <option value="$PROJECT_DIR$/16_RNN/rnn_abnormal.py" />
+        <option value="$PROJECT_DIR$/17_CNN/readme" />
+        <option value="$PROJECT_DIR$/16_RNN/rnn_mnist.py" />
+        <option value="$PROJECT_DIR$/17_CNN/cnn_malComment.py" />
+        <option value="$PROJECT_DIR$/17_CNN/cnn_spam.py" />
+        <option value="$PROJECT_DIR$/16_RNN/rnn_malcomment.py" />
+        <option value="$PROJECT_DIR$/9_SVM/svm_DGA.py" />
+        <option value="$PROJECT_DIR$/data/xss/good-xss-2000.txt" />
+        <option value="$PROJECT_DIR$/12_HMM/hmm_xss.py" />
+        <option value="$PROJECT_DIR$/data/xss/xss-good-10-10.txt" />
+        <option value="$PROJECT_DIR$/15_MLP_DNN/tf_verification_code3.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="584" />
+    <option name="y" value="157" />
+    <option name="width" value="1136" />
+    <option name="height" value="1097" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_security" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_security" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="xss" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/pycharmworkshop/web_security/12_HMM/readme" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharmworkshop\web_security\data" />
+      <recent name="D:\pycharmworkshop\web_security\2_start" />
+      <recent name="D:\pycharmworkshop\web_security\3_dataset" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tf_verification_code3">
+    <configuration name="hmm_xss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web_security" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_HMM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_HMM/hmm_xss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="svm_DGA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web_security" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_SVM/svm_DGA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tf_verification_code2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web_security" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15_MLP_DNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15_MLP_DNN/tf_verification_code2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tf_verification_code3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web_security" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/15_MLP_DNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15_MLP_DNN/tf_verification_code3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="py.test in Desktop" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="web_security" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.py.test in Desktop" />
+      <item itemvalue="Python.svm_DGA" />
+      <item itemvalue="Python.hmm_xss" />
+      <item itemvalue="Python.tf_verification_code3" />
+      <item itemvalue="Python.tf_verification_code2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tf_verification_code3" />
+        <item itemvalue="Python.tf_verification_code2" />
+        <item itemvalue="Python.hmm_xss" />
+        <item itemvalue="Python.svm_DGA" />
+        <item itemvalue="Python tests.py.test in Desktop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7cc9683d-b467-4c5a-8a0e-d9793861af7c" name="Default" comment="" />
+      <created>1544411168995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544411168995</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_hmm_DGA_py - 2018.12.19 at 21h 19m 46s.xml">
+      <configuration name="py.test in hmm_DGA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_hmm_DGA_py - 2018.12.19 at 21h 19m 55s.xml">
+      <configuration name="py.test in hmm_DGA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_hmm_DGA_py - 2018.12.19 at 21h 21m 34s.xml">
+      <configuration name="py.test in hmm_DGA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_hmm_DGA_test_alexa - 2018.12.19 at 21h 23m 05s.xml">
+      <configuration name="py.test for hmm_DGA.test_alexa" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_hmm_DGA_test_alexa - 2018.12.19 at 21h 23m 44s.xml">
+      <configuration name="py.test for hmm_DGA.test_alexa" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_svm_DGA_py - 2018.12.25 at 13h 22m 06s.xml">
+      <configuration name="py.test in svm_DGA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_svm_DGA_py - 2018.12.25 at 13h 23m 33s.xml">
+      <configuration name="py.test in svm_DGA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_svm_DGA_py - 2018.12.25 at 13h 35m 03s.xml">
+      <configuration name="py.test in svm_DGA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_svm_DGA_test_alexa - 2018.12.25 at 13h 37m 22s.xml">
+      <configuration name="py.test for svm_DGA.test_alexa" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010718" side_tool="true" weight="0.5760626" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989282" weight="0.3512304" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26499456" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32947582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12647374" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.329296" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.17202573" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/8_LR/lr_java_overflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="80" selection-start-line="80" selection-end-line="80" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_LR/lr_verification_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_SVM/svm_xss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_k_Means/dbscan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="54" selection-start-line="54" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_k_Means/kmeans_DGA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_Apriori/apriopri.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_Apriori/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_Apriori/apriori_xss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_Apriori/fp_botnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_HMM/.cache/v/cache/lastfailed" />
+    <entry file="file://$PROJECT_DIR$/NB7/nb_DGA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="45" column="22" lean-forward="true" selection-start-line="14" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#67#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_HMM/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_Graph/fig.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_Graph/neo4j_webshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#67#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_Graph/neo4j_botnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="91" column="42" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="42" />
+          <folding>
+            <element signature="e#67#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_Graph/neo4j_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_Graph/hello.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_Graph/graph_threat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+          <folding>
+            <element signature="e#67#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_Graph/graph_steal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="e#67#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_Graph/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NB7/nb_verification_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" selection-start-line="23" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_MLP_DNN/tf_verification_code1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="13" column="115" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_MLP_DNN/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="49" column="64" selection-start-line="49" selection-start-column="64" selection-end-line="49" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_Neural_Network/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_MLP_DNN/tf_spam1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="60" column="50" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="60" selection-end-column="50" />
+          <folding>
+            <element signature="e#68#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_Neural_Network/mlp_java_overflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_RNN/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14_Neural_Network/neural_verification_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <element signature="e#67#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda2/envs/py3/Lib/site-packages/tflearn/layers/recurrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_RNN/rnn_cityName.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+          <folding>
+            <element signature="e#67#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_RNN/rnn_webshell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+          <folding>
+            <element signature="e#68#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN5/knn_abnormal_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="165" column="62" selection-start-line="165" selection-start-column="33" selection-end-line="165" selection-end-column="62" />
+          <folding>
+            <element signature="e#86#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_RNN/wvs_passwd-410.index">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_SVM/svm_DGA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1988">
+          <caret line="96" column="29" lean-forward="true" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+          <folding>
+            <element signature="e#229#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_CNN/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_RNN/rnn_passwd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_RNN/rnn_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/xss/xss-2000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="105" lean-forward="true" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/xss/good-xss-200000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" selection-start-line="40" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda2/envs/py3/Lib/site-packages/sklearn/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_HMM/hmm_DGA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="128" column="14" lean-forward="true" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+          <folding>
+            <element signature="e#110#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/xss/xss-good-10-20.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="129" lean-forward="true" selection-start-line="9" selection-start-column="129" selection-end-line="9" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/xss/good-xss-2000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="554" column="14" lean-forward="true" selection-start-line="554" selection-start-column="14" selection-end-line="554" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_k_Means/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_HMM/hmm_xss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
+          <folding>
+            <element signature="e#79#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_MLP_DNN/tf_verification_code2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#67#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15_MLP_DNN/tf_verification_code3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_RNN/rnn_malcomment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+          <folding>
+            <element signature="e#67#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_CNN/cnn_spam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+          <folding>
+            <element signature="e#68#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17_CNN/cnn_malComment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="108" column="63" selection-start-line="108" selection-start-column="63" selection-end-line="108" selection-end-column="63" />
+          <folding>
+            <element signature="e#67#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_RNN/rnn_abnormal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="118" column="51" selection-start-line="118" selection-start-column="51" selection-end-line="118" selection-end-column="51" />
+          <folding>
+            <element signature="e#68#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

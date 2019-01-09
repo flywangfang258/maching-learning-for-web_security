@@ -1,0 +1,4 @@
+{
+  "svm_DGA.py::test_alexa": true,
+  "svm_DGA.py::test_dga": true
+}
